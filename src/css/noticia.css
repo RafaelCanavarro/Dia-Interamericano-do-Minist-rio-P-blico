@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #f5f5f5;
+    background-color: #1a1a1a;
+    height: 100vh;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Cabeçalho */
+header {
+    background: #333333;
+    color: #f1c40f;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0 0;
+}
+
+header nav ul li a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+
+/*main*/
+/*corpo do site*/
+
+.topo-do-site {
+    text-align: center; /* Centraliza o texto dentro da seção */
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+.interface {
+    max-width: 1280px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza a interface */
+}
+
+.flex {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos em coluna em telas menores */
+    align-items: center; /* Alinha os itens ao centro */
+}
+
+.txt-topo-site {
+    margin-bottom: 20px; /* Espaçamento abaixo do texto */
+}
+
+.img-topo-site {
+    max-width: 1000px; /* Largura máxima para a seção do evento */
+    margin: 20px auto; /* Centraliza a seção com espaçamento */
+    padding: 15px; /* Adiciona espaçamento interno à seção */
+    border: 1px solid #ccc; /* Borda sutil para delimitar a seção */
+    border-radius: 8px; /* Bordas arredondadas */
+    background-color: white; /* Fundo branco para a seção */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+}
+
+.evento-imagem {
+    width: 100%; /* Faz a imagem ocupar 100% da largura da seção */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas para a imagem */
+}
+
+/*Estilo topo do site*/
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+section .img-topo-site:hover{
+    box-shadow: 0 0 8px #5a3c92;
+    transform: scale(1.06);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.topo-do-site h1{
+    color: #f1c40f;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #da9132;
+}
+
+.topo-do-site p{
+    color: #f1c40f;
+    font-size: 26px;
+}
+
+.topo-do-site .img-topo-site p{
+    color: #000000;
+    font-size: 26px;
+}
+
+.topo-do-site .img-topo-site h2{
+    color: #000000;
+    font-size: 28px;
+    line-height: 70px;
+}
+
+/* Rodapé */
+footer {
+    background: #333333;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}

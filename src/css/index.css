@@ -1,0 +1,169 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #f5f5f5;
+    background-color: #1a1a1a;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background: #333333;
+    color: #f1c40f;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0 0;
+}
+
+header nav ul li a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffe680;
+    transform: scale(1.1);
+}
+
+/* Seções */
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #f1c40f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Info Box */
+.info-box {
+    background: #292929;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.info-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #292929;
+    color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card h3 {
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+/* Galeria */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+form input, form textarea {
+    background: #292929;
+    color: #f5f5f5;
+}
+
+form button {
+    background: #f1c40f;
+    color: #1a1a1a;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background: #ffe680;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    background: #333333;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}

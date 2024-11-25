@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="/src/css/contato.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="/img/libert.png" alt="logo">
+            <h1>Dia Interamericano do Ministério Público</h1>
+            <nav>
+                <ul>
+                    <li><a href="/src/html/educacao.html">Educação</a></li>
+                    <li><a href="/src/html/noticia.html">Notícias</a></li>
+                    <li><a href="/src/html/index.html">Início</a></li>
+                    <li><a href="/src/html/contato.html">Contato</a></li>
+                    <li><a href="/src/html/sobremim.html">Sobre mim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <div class="container_form">
+            <h1>Formulário de Contato</h1>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="cep">CEP</label>
+                        <input type="text" id="cep" name="cep" placeholder="Digite seu CEP">
+                    </div>
+                    <div class="form-group">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" id="bairro" name="bairro" placeholder="Digite seu bairro">
+                    </div>
+                    <div class="form-group">
+                        <label for="logradouro">Endereço</label>
+                        <input type="text" id="logradouro" name="logradouro" placeholder="Digite seu endereço">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Dia Interamericano do Ministério Público. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
